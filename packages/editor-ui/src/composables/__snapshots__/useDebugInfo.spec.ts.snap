@@ -10,7 +10,7 @@ exports[`useDebugInfo > should generate debug info 1`] = `
 - nodeJsVersion: 14.17.0
 - database: postgres
 - executionMode: regular
-- concurrency: 10
+- concurrency: 20
 - license: community
 - consumerId: consumer-123
 

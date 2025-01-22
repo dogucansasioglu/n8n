@@ -53,7 +53,7 @@ export class ExecuteBatch extends BaseCommand {
 
 	static examples = [
 		'$ n8n executeBatch',
-		'$ n8n executeBatch --concurrency=10 --skipList=/data/skipList.txt',
+		'$ n8n executeBatch --concurrency=20 --skipList=/data/skipList.txt',
 		'$ n8n executeBatch --debug --output=/data/output.json',
 		'$ n8n executeBatch --ids=10,13,15 --shortOutput',
 		'$ n8n executeBatch --snapshot=/data/snapshots --shallow',

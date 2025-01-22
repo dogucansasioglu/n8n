@@ -21,12 +21,12 @@ import { BaseCommand } from './base-command';
 export class Worker extends BaseCommand {
 	static description = '\nStarts a n8n worker';
 
-	static examples = ['$ n8n worker --concurrency=5'];
+	static examples = ['$ n8n worker --concurrency=20'];
 
 	static flags = {
 		help: Flags.help({ char: 'h' }),
 		concurrency: Flags.integer({
-			default: 10,
+			default: 20,
 			description: 'How many jobs can run in parallel.',
 		}),
 	};

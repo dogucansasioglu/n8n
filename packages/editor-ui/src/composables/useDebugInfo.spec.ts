@@ -17,7 +17,7 @@ const MOCK_BASE_SETTINGS: RecursivePartial<ReturnType<typeof useSettingsStoreTyp
 	databaseType: 'postgresdb',
 	isQueueModeEnabled: false,
 	settings: {
-		concurrency: 10,
+		concurrency: 20,
 		license: {
 			consumerId: 'consumer-id',
 			environment: 'production',
